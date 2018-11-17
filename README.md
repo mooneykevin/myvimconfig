@@ -2,7 +2,19 @@
 I work in Linux terminals via ChromeOS/crouton and Vim pretty often, so having my .vimrc in version control saves me the occasional headache.
 
 ### Installing Custom Colors
-  1. Navigate to ~/.vim
-  2. Locate or create colors/
-  3. Put the color file in colors/ 
-  4. Add the line `colorscheme newcolor` to your .vimrc or type `:colorscheme newcolor` during a Vim session.
+  When you attempt to switch to a custom color theme, Vim looks for it in the folder `~/.vim/colors`. 
+  
+  So first, locate or create the directory `~/.vim/colors/`. 
+  
+  Next, put any color files you have into that directory.
+  
+### Changing Colors
+  Once Vim is aware of a color scheme, there are two different ways to use it. 
+  
+  You can add the line `colorscheme _scheme_` to your .vimrc file.
+  Replace `_scheme_` with the name of the color scheme you want, 
+  and Vim will use it every time you start a new session. 
+  
+  You can also type `:colorscheme _scheme_` during a Vim session. 
+  This will switch the currently displayed color scheme to whatever
+  scheme you specify as the argument. 
