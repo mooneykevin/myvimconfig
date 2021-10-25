@@ -1,4 +1,6 @@
-# My .vimrc
+# myvimconfig
+
+I save this to my GitHub so whenever I switch systems I can get Vim up and running quickly. The goal is to become proficient in Vim :)  
 
 ### Installing Custom Colors
   When you attempt to switch to a custom color theme, Vim looks for it in the folder `~/.vim/colors`. 
